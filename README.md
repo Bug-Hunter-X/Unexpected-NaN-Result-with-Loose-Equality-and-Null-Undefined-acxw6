@@ -1,0 +1,3 @@
+# Unexpected NaN Result with Loose Equality and Null/Undefined
+
+This repository demonstrates a common JavaScript error involving loose equality (==) and the handling of null and undefined values. The function `foo` intends to return 0 if the input is null, but it produces NaN when the input is undefined due to JavaScript's loose comparison behavior.  The solution demonstrates how to use strict equality (===) to resolve the issue.
